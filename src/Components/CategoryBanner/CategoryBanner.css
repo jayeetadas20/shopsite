@@ -1,0 +1,38 @@
+.catbanner{
+    padding: 0 40px;
+    margin: 0px auto;
+}
+.CategoryBanner {
+    margin: 20px auto;
+    padding: 0 80px;
+    background: #f291bb;
+    background: linear-gradient(78deg,rgba(242, 145, 187, 1) 0%, rgba(230, 228, 220, 1) 100%);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    height: 300px;
+    max-height: 300px;
+    min-height: 300px;
+    overflow: hidden;
+}
+.CategoryBanner h1{
+    margin: 0;
+    text-align: left;
+    font-size: 44px;
+    font-family: "Poppins", sans-serif;
+    line-height: 48px;
+    font-style: italic;
+}
+.CategoryBanner_img {
+    width: 30%;
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+.CategoryBanner_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

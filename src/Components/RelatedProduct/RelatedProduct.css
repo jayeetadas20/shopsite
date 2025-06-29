@@ -1,0 +1,15 @@
+.RelatedProduct {
+  margin: 80px auto;
+}
+/* .relatedProduct_item {
+  display: -webkit-inline-box;
+  gap: 20px;
+  padding: 0 30px 30px;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 100%;
+} */
+.relatedProduct_item .item {
+  width: 18%;
+}

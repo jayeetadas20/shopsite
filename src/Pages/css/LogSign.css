@@ -1,0 +1,51 @@
+.Login_Signup {
+  margin: 0px auto;
+  padding: 60px 40px;
+  background: #f2e1e8;
+}
+.log_sign_div {
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  width: 48%;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.log_sign_fields {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.log_sign_fields input {
+  width: 94%;
+  height: 40px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  padding: 0 15px;
+  position: relative;
+}
+.log_sign_div p {
+  font-size: 14px;
+  margin-top: 20px;
+}
+.log_sign_div span {
+  color: #ff157b;
+  font-weight: 600;
+}
+.logsign_agree {
+  font-size: 14px;
+}
+.log_sign_div h1 {
+  margin: 0 0 20px;
+  color: #ff157b;
+  font-size: 31px;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}

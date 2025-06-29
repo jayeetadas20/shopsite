@@ -1,0 +1,16 @@
+.NewCollection {
+  margin: 80px auto;
+  padding: 0 40px;
+}
+.slick-dots li {
+  width: 10px;
+  height: 15px;
+}
+.slick-track {
+  display: flex;
+  gap: 20px;
+}
+.slick-slider .item {
+  width: 100%;
+  margin-bottom: 40px;
+}

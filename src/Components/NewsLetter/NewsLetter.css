@@ -1,0 +1,63 @@
+.NewsLetter{
+    margin: 80px auto;
+    background: #de659a;    
+    overflow:hidden;
+    position: relative;
+}
+.newsleter-info{
+    padding: 60px 85px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+}
+.news_left{
+    width: 50%;
+    text-align: left;
+    z-index: 1;
+}
+.news_left h3{
+    margin: 0;
+    color: #fff;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    line-height: 40px;
+    -webkit-text-stroke: 1px #dc0b65;
+}
+.news_left p{
+    margin: 10px 0 0;
+    color: #fff;
+}
+.news_right{
+    width: 50%;
+    z-index: 1;
+}
+.news_right form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.news_right input {
+    width: 75%;
+    height: 50px;
+    border: none;
+    padding: 0 15px;
+    border-radius: 90px 0 0 90px;
+}
+.news_right .subscribe_btn {
+    width: 25%;
+    background: #000;
+    color: #fff;
+    border-radius: 0 90px 90px 0;
+    height: 50px;
+    border: none;
+    font-weight: 600;
+    cursor:pointer;
+}
+.news_right .subscribe_btn:hover {
+    background: #ff157b;
+}
+:focus-visible {
+    outline: 0;
+}

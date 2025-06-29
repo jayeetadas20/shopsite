@@ -1,0 +1,10 @@
+.shop_category_products{
+    margin: 100px auto;
+    padding: 0 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px 15px;
+}
+.shop_category_products .item {
+    width: 18%;
+}
